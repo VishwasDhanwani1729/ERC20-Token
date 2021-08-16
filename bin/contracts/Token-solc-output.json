@@ -1,0 +1,131 @@
+{
+    "contracts": {
+        "e:/Vishwas/Blockchain/tokenSale/contracts/Token.sol": {
+            "Token": {
+                "abi": [
+                    {
+                        "constant": true,
+                        "inputs": [],
+                        "name": "totalSupply",
+                        "outputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "",
+                                "type": "uint256"
+                            }
+                        ],
+                        "payable": false,
+                        "stateMutability": "view",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b5060808061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a723158202275a03c17ae7a4ffb5eec53bdf4158f1c50cc3c4fac7ebefff84827198a37aa64736f6c634300050c0032",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x80 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x18160DDD EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x45 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0x22 PUSH22 0xA03C17AE7A4FFB5EEC53BDF4158F1C50CC3C4FAC7EBE SELFDESTRUCT 0xf8 0x48 0x27 NOT DUP11 CALLDATACOPY 0xaa PUSH5 0x736F6C6343 STOP SDIV 0xc STOP ORIGIN ",
+                        "sourceMap": "28:52:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:52:0;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a723158202275a03c17ae7a4ffb5eec53bdf4158f1c50cc3c4fac7ebefff84827198a37aa64736f6c634300050c0032",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x18160DDD EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x45 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0x22 PUSH22 0xA03C17AE7A4FFB5EEC53BDF4158F1C50CC3C4FAC7EBE SELFDESTRUCT 0xf8 0x48 0x27 NOT DUP11 CALLDATACOPY 0xaa PUSH5 0x736F6C6343 STOP SDIV 0xc STOP ORIGIN ",
+                        "sourceMap": "28:52:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:52:0;;;;;;;;;;;;;;;;;;;50:26;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "25600",
+                            "executionCost": "75",
+                            "totalCost": "25675"
+                        },
+                        "external": {
+                            "totalSupply()": "376"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "totalSupply()": "18160ddd"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"e:/Vishwas/Blockchain/tokenSale/contracts/Token.sol\":\"Token\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"e:/Vishwas/Blockchain/tokenSale/contracts/Token.sol\":{\"keccak256\":\"0x97faabf13fe347aad9fd24463e7530b37fa50674188262e00d684be2a7f402b1\",\"urls\":[\"bzz-raw://bbdf1608d6bbfeadac199d35a25bab01f7749e85fcbd40b8bf471fb8e03c86d7\",\"dweb:/ipfs/QmdWWNemdjdR3nEXBcd663TGibui7WS7fyrQik8pgtQdE5\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "e:/Vishwas/Blockchain/tokenSale/contracts/Token.sol": {
+            "ast": {
+                "absolutePath": "e:/Vishwas/Blockchain/tokenSale/contracts/Token.sol",
+                "exportedSymbols": {
+                    "Token": [
+                        4
+                    ]
+                },
+                "id": 5,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.5",
+                            ".12"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "0:24:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "documentation": null,
+                        "fullyImplemented": true,
+                        "id": 4,
+                        "linearizedBaseContracts": [
+                            4
+                        ],
+                        "name": "Token",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "id": 3,
+                                "name": "totalSupply",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 4,
+                                "src": "50:26:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "uint256",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "50:7:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "value": null,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 5,
+                        "src": "28:52:0"
+                    }
+                ],
+                "src": "0:82:0"
+            },
+            "id": 0
+        }
+    }
+}
