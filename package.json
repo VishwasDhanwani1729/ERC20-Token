@@ -10,9 +10,12 @@
     "truffle": "^5.4.6",
     "web3": "^1.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "author": "",
   "license": "ISC"
